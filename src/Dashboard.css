@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+   
+.Dashboard .top{
+        margin-left: 20vw;
+        margin-top: 8vh;
+        width: 57vw;
+        height: 50px;
+        color: white;
+        background-color: rgb(253,193,46);
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        
+    }
+    .top-second{
+        display:flex;
+        flex-direction: row;
+    }
+    .top-second h2{
+        margin-left: 17vw;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: lightslategrey;
+    }
+    
+    
+.Dashboard input{
+    height: 30px;
+    width: 400px;
+    margin-left: 20vw;
+    margin-top: 10px;
+    box-shadow: black;
+}
+
+    .posts {
+        border-collapse: collapse;
+        margin-left: 20vw;
+        margin-right: 10vw;
+        margin-top: 5px;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        
+    }
+     table{
+           width: 57vw;
+          }
+
+    .posts thead tr {
+        background-color: rgb(34,119,255);
+        color: #ffffff;
+        text-align: left;
+    }
+   
+    
+    .list th{
+        text-align: center;
+        padding: 15px;
+    }
+    .posts th,
+    .posts td {
+     padding: 12px 15px;
+    }
+
+    .posts tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    .posts tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    
+    .posts tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    
+ 
+
+    
+    
+    
